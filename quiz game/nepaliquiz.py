@@ -1,4 +1,4 @@
-# Quiz Questions
+
 questions = [
     {
         "question": "What is the capital of Nepal?",
@@ -62,7 +62,6 @@ questions = [
     }
 ]
 
-# Function to run the quiz
 def run_quiz():
     score = 0
     print("Welcome to the Nepal Quiz!\n")
@@ -72,7 +71,6 @@ def run_quiz():
         for option in q['options']:
             print(option)
         
-        # Take user's answer
         try:
             user_answer = int(input("Your answer (Enter the number): "))
             if user_answer == q['answer']:
@@ -91,6 +89,5 @@ def run_quiz():
     else:
         print("Better luck next time!")
 
-# Run the quiz
 if __name__ == "__main__":
     run_quiz()
