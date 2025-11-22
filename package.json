@@ -1,0 +1,13 @@
+{
+  "name": "telegram-dice-bot",
+  "version": "1.0.0",
+  "description": "A Telegram betting bot with virtual currency and dice games",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0",
+    "sqlite3": "^5.1.6"
+  }
+}
